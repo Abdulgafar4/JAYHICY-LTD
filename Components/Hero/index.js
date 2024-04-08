@@ -10,7 +10,7 @@ export default function Hero() {
         <div className={style.col_1}>
           <div>
             <h1>
-              We Help You<br/>
+              We’ll Help You<br/>
               Build Your Dream<br/>
               <u>House</u>
             </h1>

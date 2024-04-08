@@ -2,7 +2,7 @@ import style from "./style.module.css";
 import Button from "../Button";
 import { useState } from "react";
 
-export default function Projects() {
+export default function Designs() {
   const [appState, changeState] = useState({
     activeObject: null,
     objects: [
@@ -38,7 +38,7 @@ export default function Projects() {
   return (
     <div className={style.section_projects} id="projects">
       <h1>
-        <u>Constructions</u>
+        <u>Designs</u>
       </h1>
       <div className={style.projects}>
         {appState.objects.map((item, key) => (

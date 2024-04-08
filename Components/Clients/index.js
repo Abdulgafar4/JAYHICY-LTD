@@ -12,7 +12,7 @@ export default function Clients() {
         <div>
           <h1>
             Customer Say’s <br />
-            About <u>Arx</u>
+            About <u>JayHicy</u>
           </h1>
           <p>
             Aut et repellat ex qui alias asperiores eum totam. Quia maxime sunt
