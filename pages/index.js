@@ -1,5 +1,6 @@
 import Clients from "../Components/Clients";
 import Concepts from "../Components/Concepts";
+import Designs from "../Components/Designs";
 import Featured from "../Components/Featured";
 import Footer from "../Components/Footer";
 import Hero from "../Components/Hero";
@@ -14,9 +15,10 @@ export default function Home() {
       <ScrollToTop smoth color="#14213d" style={{ borderRadius: 0 }} />
       <Navbar />
       <Hero />
-      <Featured />
       <Step />
+      <Designs />
       <Projects />
+      <Featured />
       <Clients />
       <Concepts />
       <Footer />

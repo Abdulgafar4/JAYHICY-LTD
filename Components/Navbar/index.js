@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable jsx-a11y/alt-text */
 import style from "./style.module.css";
 import Image from "next/image";
 import { useState } from "react";
@@ -9,7 +11,7 @@ export default function Navbar() {
   return (
     <>
       <nav className={style.nav}>
-        <a href="">Arx</a>
+        <a href="">JayHicy</a>
         <Image src="/img/logo.svg" width={32} height={32} />
         <OutsideClickHandler onOutsideClick={() => setOffCanvas(false)}>
           <Image
@@ -50,14 +52,6 @@ export default function Navbar() {
                 <img src="/img/Facebook.svg" />
                 <span>&nbsp; Facebook</span>
               </p>
-              <p>
-                <img src="/img/Dribbble.svg" />
-                <span>&nbsp; Dribbble</span>
-              </p>
-              <p>
-                <img src="/img/Linkedin.svg" />
-                <span>&nbsp; Linkedin</span>
-              </p>
             </div>
           </div>
           <div className={style.menu}>
@@ -87,7 +81,7 @@ export default function Navbar() {
         <div className={style.email}>
           <p>Get in touch</p>
           <h2>
-            <u>info@arx.com</u>
+            <u>+2347035667496</u>
           </h2>
         </div>
       </div>

@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable jsx-a11y/alt-text */
 import style from "./style.module.css";
 import Image from "next/image";
 import { useState } from "react";
@@ -46,11 +48,24 @@ export default function Step() {
           Big <u>Move</u>
         </h1>
         <p>
-          Aut autem aut. Quis molestiae porro aut tempora similique deleniti
-          sint laborum eius. Repudiandae qui sint nobis ipsum voluptas eius.
-          Impedit voluptas animi numquam et placeat. Neque aut alias architecto
-          dolor natus corporis. Itaque in laborum blanditiis qui quo non
-          numquam.
+          JAYHICY NIGERIA LIMITED IS A DESIGN, CONSTRUCTION,
+ESTATE MANAGEMENT, QUANTITY SURVEYING AND PROJECT
+MANAGEMENT FIRM BASED IN ILORIN, KWARA STATE.
+SINCE INCEPTION, IT HAS UNDERGONE VARIOUS DESIGN AND
+CONSTRUCTION PROJECTS FOR INDIVIDUALS AND ORGANISATIONS.
+IT HAS THE NEEDED EXPERTISE FOR A PERFECT DELIVERY OF
+CONSTRUCTION PROJECTS RIGHT FROM INITIATION TO
+COMPLETION. ITS PROJECTS CUT ACROSS DIFFERENT PART OF THE
+COUNTRY, NOTABLE IN KWARA STATE, ABUJA, ZARIA AND MANY
+MORE.
+ITS VAST EXPERIENCE IN THE CONSTRUCTION AND ABILITY TO
+INNOVATE STRATEGIES TO ACHIEVE THE CLIENT’S NEED AT THE
+REQUIRED BUDGET IS WHERE ITS STRENGTH LIES.
+ITS PROFESSIONALS HAVE GREAT KNOWLEDGE OF THE USE OF
+DESIGN SOFTWARES RANGING FROM AUTOCAD, REVIT
+ARCHITECTURE, SKETCHUP ETC TO EASE THE DESIGN AND
+PRODUCE AN APPEALING DESIGN OUTPUT.
+
         </p>
         <div className={style.box_steps}>
           {appState.objects.map((item, key) => (
